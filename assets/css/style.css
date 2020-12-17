@@ -38,18 +38,18 @@ body, html {
     padding: 0 15px;
 }
 
-.col-s-12{width:100%}
-.col-s-11{width:91.66666667%}
-.col-s-10{width:83.33333333%}
-.col-s-9{width:75%}
-.col-s-8{width:66.66666667%}
-.col-s-7{width:58.33333333%}
-.col-s-6{width:50%}
-.col-s-5{width:41.66666667%}
-.col-s-4{width:33.33333333%}
-.col-s-3{width:25%}
-.col-s-2{width:16.66666667%}
-.col-s-1{width:8.33333333%}
+.col-12{width:100%}
+.col-11{width:91.66666667%}
+.col-10{width:83.33333333%}
+.col-9{width:75%}
+.col-8{width:66.66666667%}
+.col-7{width:58.33333333%}
+.col-6{width:50%}
+.col-5{width:41.66666667%}
+.col-4{width:33.33333333%}
+.col-3{width:25%}
+.col-2{width:16.66666667%}
+.col-1{width:8.33333333%}
 
 @media (min-width: 992px) {
     .col-l-12{width:100%}
