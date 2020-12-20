@@ -160,3 +160,111 @@ body, html {
     margin-bottom: 15px;
     font-weight: normal;
 }
+
+
+
+
+
+.boxes .box {
+    border:  1px solid;
+    text-align: center;
+    padding: 70px 20px;
+    border-color: rgba(224, 224, 207, 0.5);
+    border-radius: 10px;
+}
+
+h2.top-1 {
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 0 0 70px;
+    font-size: 40px;
+}
+
+h2.top-1 span{
+    font-size: 20px;
+}
+
+.feature {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.area.middle .phone {
+    display: block;
+    margin: -50px auto 0;
+    
+}
+
+.area.middle .features{
+    background: rgba(255, 255, 255, .80);
+    position: relative;
+    padding: 0 0 30px;
+}
+
+.feature.row {
+    margin: 0 auto;
+    display: block;
+}
+
+.boxes .box {
+    border:  1px solid;
+    text-align: center;
+    padding: 70px 20px;
+    border-color: rgba(224, 224, 207, 0.5);
+    border-radius: 10px;
+}
+
+.area.under .mini-phone{
+    display: block;
+    margin: -50px auto 0;
+}
+
+
+.bt{
+    font-size: 15px;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(140deg, #ffa159, #ff39b4);
+
+    width: 200px;
+    font-style: none;
+}
+
+.box-c {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.box-d {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.area.back-g{
+    background: linear-gradient(140deg, #ffa159, #ff39b4);
+
+}    
+
+.col-12.col-l-4 {
+    color: #ffff;
+    display: block;
+    margin: auto 0;
+}
+
+
+h2.end {
+    font-size: 70px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    margin: 0 32px;
+}
