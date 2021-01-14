@@ -22,7 +22,7 @@ body, html {
 
 .row {
     display: flex;
-    margin: 0;
+    margin: 0 -15px;
     flex-wrap: wrap;
 }
 
@@ -32,6 +32,10 @@ body, html {
 
 .justify-center {
     justify-content: center;
+}
+
+.text-center{
+    text-align: center;
 }
 
 [class*="col-"] {
@@ -125,6 +129,10 @@ body, html {
     position: relative;
 }
 
+.buttons{
+    padding-top: 30px;
+}
+
 .area {
     padding: 110px 0;
 }
@@ -165,27 +173,23 @@ body, html {
 /* Arquivos do css da outra pasta (excluir comentario após ajustes) */
 
 
-.justify-center {
+.feature{
     text-align: center;
-    padding: 70px 20px;
-    border-color: rgba(224, 224, 207, 0.5);
     border-radius: 10px;
+    padding: 0 20px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .img-1 {
-    margin: -30px 0;
+    margin: -60px 0 0;
+    text-align: center;
+    position: relative;
+    z-index: -1;
 }
-
-.col-12.col-l-3 {
-    background: #e8e8e8e8;
-    padding: 15px;
-}
-
 
 h2.top-1 {
     text-align: center;
     color: var(--primaryColor);
-    margin: 0 0 70px;
     font-size: 40px;
 }
 
@@ -193,76 +197,31 @@ h2.top-1 span{
     font-size: 20px;
 }
 
-.feature {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 .area.middle .phone {
     display: block;
     margin: -50px auto 0;
-    
 }
-
-.area.middle .features{
-    background: rgba(255, 255, 255, .80);
-    position: relative;
-    padding: 0 0 30px;
-}
-
-.feature.row {
-    margin: 0 auto;
-    display: block;
-}
-
-.area.under .mini-phone{
-    display: block;
-    margin: -50px auto 0;
-}
-
 
 .bt{
     font-size: 15px;
-    align-items: center;
     border-radius: 10px;
     background: linear-gradient(140deg, #ffa159, #ff39b4);
-
-    width: 200px;
-    font-style: none;
+    color: #fff;
+    padding: 15px 25px;
     text-decoration: none;
-}
-
-.box-c {
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .box-d {
-    align-items: center;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin-top: 20px;
 }
-
-.bt-link{
-    text-decoration: none;
-}
-
 
 .area.back-g{
     background: linear-gradient(140deg, #ffa159, #ff39b4);
-
 }    
-
-.col-12.col-l-4 {
-    color: #ffff;
-    display: block;
-    margin: auto 0;
-}
-
 
 h2.end {
     font-size: 70px;
@@ -270,7 +229,7 @@ h2.end {
     margin: 0;
 }
 
-p {
-    text-align: left;
-    margin: 0 32px;
+.under {
+    padding-top: 0;
+
 }
