@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -36,7 +37,7 @@
     <main>
         <section class="area configure">
             <div class="container">
-                <div class="row align-center">
+                <div data-aos="fade-down" class="row align-center">
                     <div class="col-12 col-l-7">
                         <h1>Lorem ipsum dolor sit amet.</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores explicabo laborum
@@ -95,6 +96,8 @@
             </div>
         </section>
     
+
+        
         <section class="area under">
             <div class="container">
                 <div class="box-a">
@@ -162,8 +165,11 @@
 
 
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="assets/js/aos.js"></script>
+
     <script>
-        feather.replace()
+        feather.replace();
+        AOS.init();
     </script>
 </body>
 
